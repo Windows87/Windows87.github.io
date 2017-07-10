@@ -1,4 +1,8 @@
 body{
 	padding: 10%;
-	font-style: Roboto;
+	font-family: Roboto;
+}
+
+h1{
+	font-size: 90%;
 }
