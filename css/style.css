@@ -1,4 +1,115 @@
-body{
-	padding: 10%;
-	font-family: Arial;
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+header {
+  width: calc(100% - 24px);
+  min-height: 30%;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #1565c0;
+}
+
+header img {	
+  width: 200px;
+  border-radius: 360px;
+}
+
+#github {
+  width: 30px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+h1 {
+  margin: 8px;
+  text-align: center;
+}
+
+h2 {
+  margin: 12px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 8px;
+  margin-top: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.big-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  max-width: 150px;
+}
+
+.circle-container img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4px;
+}
+
+.circle-container span {
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}
+
+#repo-container {
+  background-color: #1565c0;
+  width: calc(100% - 16px);
+  padding: 8px;
+  color: white;
+}
+
+#repos-languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+#repos-languages span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.circle-img {
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
