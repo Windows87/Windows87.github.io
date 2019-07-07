@@ -6,22 +6,31 @@ html {
 body {
   margin: 0;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
+  font-family: Raleway;
 }
 
 header {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/background/codding.jpg);
+}
+
+header .dark-background {
+  height: calc(100% - 24px);
+}
+
+.dark-background {
   width: calc(100% - 24px);
-  min-height: 30%;
   padding: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: #1565c0;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 header img {	
@@ -29,20 +38,22 @@ header img {
   border-radius: 360px;
 }
 
-#github {
-  width: 30px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
+header h1 {
+  font-size: 40px;
+}
+
+header h2 {
+  font-size: 23px;
 }
 
 h1 {
   margin: 8px;
+  margin-bottom: 0;
   text-align: center;
 }
 
 h2 {
-  margin: 12px;
+  margin: 8px;
   text-align: center;
 }
 
@@ -56,60 +67,85 @@ nav {
 
 a {
   text-decoration: none;
-  color: white;
+  color: unset;
   font-weight: bold;
 }
 
-.big-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+p {
+  color: #4c4c4c;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 8px;
 }
 
-.circle-container {
+.my-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+.my-networks img {
+  filter: grayscale(1);
+  transition: 0.2s all;
+  width: 50px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.my-networks img:hover {
+  width: 55px;
+}
+
+.education-block {
+  display: flex;
+  align-items: center;
+}
+
+.education-block img {
+  height: 60px;
+  margin: 12px;
+  margin-left: 0;
+}
+
+.subtitle-1 {
+  font-size: 15px;
+  color: #4c4c4c;
+}
+
+.subtitle-2 {
+  font-size: 13px;
+  color: #4c4c4c;
+}
+
+.main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.block {
   padding: 12px;
-  max-width: 150px;
+  width: 60%;
 }
 
-.circle-container img {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 4px;
+@media only screen and (max-width: 728px) {
+  .block {
+    width: calc(100% - 24px);
+  }
 }
 
-.circle-container span {
-  font-weight: bold;
-  color: gray;
-  text-align: center;
+header, .skills-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
 }
 
-#repo-container {
-  background-color: #1565c0;
-  width: calc(100% - 16px);
-  padding: 8px;
-  color: white;
+.skills-image {
+  background-image: url(../img/background/codding-2.jpg);
 }
 
-#repos-languages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-}
-
-#repos-languages span {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.circle-img {
-  border-radius: 100px;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+.skills-image p {
+  color: unset;
 }
