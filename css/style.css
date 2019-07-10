@@ -97,12 +97,12 @@ p {
   width: 55px;
 }
 
-.education-block {
+.education-block, .project-block {
   display: flex;
   align-items: center;
 }
 
-.education-block img {
+.education-block img, .project-block img {
   height: 60px;
   margin: 12px;
   margin-left: 0;
