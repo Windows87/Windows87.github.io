@@ -12,7 +12,7 @@ function setTerminalStyle(name, element, end = 0) {
 }
 
 function start() {
-  setTerminalStyle('Yuri Faria', document.querySelector('h1'));
+  setTerminalStyle('YURI FARIA', document.querySelector('h1'));
   setTerminalStyle('Full Stack Developer', document.querySelector('h2'));
 }
 
