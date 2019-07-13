@@ -9,7 +9,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Raleway;
+  font-family: Open Sans;
 }
 
 .principal-header {
@@ -153,4 +153,8 @@ header, .skills-image {
 
 .skills-image p {
   color: unset;
+}
+
+a {
+  font-size: 105%;
 }
