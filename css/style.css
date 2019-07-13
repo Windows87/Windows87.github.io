@@ -12,7 +12,7 @@ body {
   font-family: Raleway;
 }
 
-header {
+.principal-header {
   width: 100%;
   height: 100%;
   background-image: url(../img/background/codding.jpg);
@@ -55,6 +55,10 @@ h1 {
 h2 {
   margin: 8px;
   text-align: center;
+}
+
+h3 {
+  margin: 8px;
 }
 
 nav {
@@ -118,20 +122,20 @@ p {
   color: #4c4c4c;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.block {
+section {
   padding: 12px;
   width: 60%;
 }
 
 @media only screen and (max-width: 728px) {
-  .block {
+  section {
     width: calc(100% - 24px);
   }
 }

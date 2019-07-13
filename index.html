@@ -1,6 +1,7 @@
 <html>
   <head>
 	  <title>My Amazing Resume =D</title>
+
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 	  <link rel="shortcut icon" href="img/favicon.ico" />
 
@@ -31,16 +32,17 @@
   </head>
 
   <body>
-  	<header>
+  	<header class="principal-header">
       <div class="dark-background">
-  	    <h1>Yuri Faria</h1>
-        <h2>Full Stack Developer</h2>
+        <hgroup>
+  	      <h1>Yuri Faria</h1>
+          <h2>Full Stack Developer</h2>
+        </hgroup>
       </div>
   	</header>
 
-    <div class="main">
-      
-      <div class="block">
+    <main>
+      <section>
         <h2>About me</h2>
         <p>
           Hi! I'm Yuri Faria, Brazilian <strike>(sOrRy fOr mY BaD EnGlIsH)</strike>, 15 years old and Baby Driver soundtrack lover. Currently I'm making projects just for study, fun or for help people and Javascript (ES10 please, I'm not 90's to use jQuery (it's a joke, but is true)) is the better language that I've seen. Programming is not to get a job but programming is life and love :)
@@ -52,135 +54,139 @@
           <a href="https://twitter.com/MacBook871"><img src="img/logos/twitter.png" /></a>
           <a href="https://github.com/Windows87"><img src="img/logos/github.png" /></a>
         </div>
-      </div>
+      </section>
 
       <div class="skills-image">
         <div class="dark-background">
-          <div class="block">
+          <section>
             <h2>My Skills</h2>
-            <p>
-              <b>HTML5, CSS3 and VanillaJS</b><br>
-              <span>Examples of my repositories with this technology: <a href="https://github.com/Windows87/combine-website"><b>Combine Website</b></a>, <a href="https://github.com/Windows87/calc"><b>Calc</b></a> and <a href="https://github.com/Windows87/Windows87.github.io"><b>this website</b></a>.</span>
-            </p>    
 
-            <p>
-              <b>React</b><br>
-              <span>Examples of my repositories with this technology: <a href="https://github.com/Windows87/react-chat"><b>React Chat</b></a>, <a href="https://github.com/Windows87/react-notes"><b>React Notes (Desktop)</b></a> and  <a href="https://github.com/Windows87/nwjs-contact-list"><b>NWjs Contact List (Desktop)</b></a>.</span>
-            </p>      
+            <article>
+              <h3>HTML5, CSS3 and VanillaJS</h3>
+              <p>Examples of my repositories with this technology: <a href="https://github.com/Windows87/combine-website"><b>Combine Website</b></a>, <a href="https://github.com/Windows87/calc"><b>Calc</b></a> and <a href="https://github.com/Windows87/Windows87.github.io"><b>this website</b></a>.</p>
+            </article>
 
-            <p>
-              <b>React Native</b><br>
-              <span>Examples of my repositories with this technology: <a href="https://github.com/Windows87/RNMaps"><b>RNMaps</b></a>.</span>
-            </p>       
+            <article>
+              <h3>React</h3>
+              <p>Examples of my repositories with this technology: <a href="https://github.com/Windows87/react-chat"><b>React Chat</b></a>, <a href="https://github.com/Windows87/react-notes"><b>React Notes (Desktop)</b></a> and  <a href="https://github.com/Windows87/nwjs-contact-list"><b>NWjs Contact List (Desktop)</b></a>.</p>      
+            </article>
 
-            <p>
-              <b>NodeJS</b><br>
-              <span>Examples of my repositories with this technology: <a href="https://github.com/Windows87/geobattle"><b>Geobattle</b></a>, <a href="https://github.com/Windows87/biblioteca"><b>Library System (Portuguese)</b></a> and several already quoted above.</span>
-            </p>  
+            <article>
+              <h3>React Native</h3>
+              <p>Examples of my repositories with this technology: <a href="https://github.com/Windows87/RNMaps"><b>RNMaps</b></a>.</p>       
+            </article>
 
-            <p>
-              <b>Python</b><br>
-              <span>I use Python to join in programming marathons and in Uri Online Judge. My repository of questions URI is <a href="https://github.com/Windows87/uri-python"><b>here</b></a> and my URI account is <a href="https://www.urionlinejudge.com.br/judge/pt/profile/177613"><b>here</b></a>.</span>
-            </p>
+            <article>
+              <h3>NodeJS</h3>
+              <p>Examples of my repositories with this technology: <a href="https://github.com/Windows87/geobattle"><b>Geobattle</b></a>, <a href="https://github.com/Windows87/biblioteca"><b>Library System (Portuguese)</b></a> and several already quoted above.</p> 
+            </article>
 
-            <p>
-              <b>English</b><br>
-              <span>My English is intermediate, but I can read pretty well and I'm learning every day, trying to read books, watch <strike>PewDiePie</strike> videos and write texts (I'm doing it right now).</span> 
-            </p>
+            <article>
+              <h3>Python</h3>
+              <p>I use Python to join in programming marathons and in Uri Online Judge. My repository of questions URI is <a href="https://github.com/Windows87/uri-python"><b>here</b></a> and my URI account is <a href="https://www.urionlinejudge.com.br/judge/pt/profile/177613"><b>here</b></a>.</p>
+            </article>
 
-            <p>
-              <b>General</b><br>
-              <span>Inkscape, LibreOffice package and my love PowerPoint.</span> 
-            </p>                                       
-          </div>
+            <article>
+              <h3>English</h3>
+              <p>My English is intermediate, but I can read pretty well and I'm learning every day, trying to read books, watch videos and write texts (I'm doing it right now).</p> 
+            </article>
+
+            <article>
+              <h3>General</h3>
+              <p>Inkscape, LibreOffice package and my love PowerPoint.</p>
+            </article>                                       
+          </section>
         </div>
       </div>
 
-      <div class="block">
-        <h2>My Awesome Projects</h2>
-        <p>
-          An awesome project is: a) It's fun or b) People liked it and they are still using in the real world. I'm developing new awesome projects right now to update this list the fastest I can! =)
-        </p>
+      <section>
+        <header>
+          <h2>My Awesome Projects</h2>
+          <p>
+            An awesome project is: a) It's fun or b) People liked it and they are still using in the real world. I'm developing new awesome projects right now to update this list the fastest I can! =)
+          </p>
+        </header>
 
-        <p>
+        <article>
           <div class="project-block">
             <img src="img/logos/wikigame.png" />
-            <div>
+            <header>
               <a href="https://windows87.github.io/the-wikipedia-game"><b>The Wikipedia Game</b></a><br>
               <span class="subtitle-1">Because is Fun</span><br>
               <span class="subtitle-2">Jul/2019</span><br>
             </div>
-          </div>
+          </header>
 
           <p>
             This was fun to make it. I liked the result the fonts and appearence seem like a real, professional and cute game. The game objective is hit which of two articles of Wikipedia is most viewed by their names and photos.
           </p>
-        </p>
+        </article>
 
-        <p>
+        <article>
           <div class="project-block">
             <img src="img/logos/card.png" />
-            <div>
+            <header>
               <a href="https://www.github.com/Windows87/trucocraft"><b>TrucoCraft</b></a><br>
               <span class="subtitle-1">Because is Fun (and Minecraft)</span><br>
               <span class="subtitle-2">Mar/2019</span><br>
-            </div>
+            </header>
           </div>
 
           <p>
             "Truco" is an amazing card game popular in South America, Spain, and Italy. Create it was fun because a) Minecraft is Fun, b) Truco is fun and c) I made this with Javascript and not Java. The plugin is for two players.
           </p>
-        </p>
+        </article>
 
-        <p>
+        <article>
           <div class="project-block">
             <img src="img/logos/geobattle.png" />
-            <div>
+            <header>
               <a href="https://www.github.com/Windows87/geobattle"><b>GeoBattle</b></a><br>
               <span class="subtitle-1">Because is Fun (and Insane)</span><br>
               <span class="subtitle-2">I don't remember/2018</span><br>
-            </div>
+            </header>
           </div>
 
           <p>
             I made that for a School Exhibition for Geography topic. The development was fun and insane because I code all the game starting at 8 P.M and finishing at 5 A.M of another day. The game is like Trivia Crack but simultaneously.
           </p>
-        </p>
+        </article>
 
-        <p>
+        <article>
           <div class="project-block">
             <img src="img/logos/library.png" />
-            <div>
+            <header>
               <a href="https://www.github.com/Windows87/biblioteca"><b>Library System</b></a><br>
               <span class="subtitle-1">Because is Useful and I learned a lot</span><br>
               <span class="subtitle-2">Started in May/2018</span><br>
-            </div>
+            </header>
           </div>
 
           <p>
             I made this system to my old school library and I registered more than 500 books on the system. I learned a lot with this experience, such as software is improved over time and is necessary to understand the people that use your software to do better user experience to users.
           </p>
-        </p>       
-      </div>
+        </article>       
+      </section>
 
-      <div class="block">
+      <section>
         <h2>Education</h2>
-        <p>
+        <article>
           <div class="education-block">
             <img src="img/logos/if.png" />
-            <div>
+            <header>
               <a href="https://www.muz.ifsuldeminas.edu.br/cursos/1533-tecnico-em-informatica-integrado-ao-ensino-medio"><b>Computing Technician integrated with High School</b></a><br>
               <span class="subtitle-1">Federal Institute - Campus Muzambinho</span><br>
               <span class="subtitle-2">2019 - Current</span><br>
-            </div>
+            </header>
           </div>
 
           <p>
             I'm currently in the first grade of the high school integrated with Computing Technician and it's really very cool.
           </p>
-        </p>
-      </div>            
-    </div>
+        </article>
+      </section>            
+    </main>
+
   	<script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
