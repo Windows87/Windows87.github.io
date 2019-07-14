@@ -149,6 +149,7 @@ header, .skills-image {
 
 .skills-image {
   background-image: url(../img/background/codding-2.jpg);
+  width: 100%;
 }
 
 .skills-image p {
