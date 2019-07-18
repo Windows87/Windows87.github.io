@@ -12,6 +12,10 @@ body {
   font-family: Open Sans;
 }
 
+.pager-buttons button {
+  font-family: Open Sans;
+}
+
 .principal-header {
   width: 100%;
   height: 100%;
@@ -78,7 +82,7 @@ a {
 
 p {
   color: #4c4c4c;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   margin-top: 8px;
 }
@@ -152,8 +156,92 @@ header, .skills-image {
   width: 100%;
 }
 
-.skills-image p {
-  color: unset;
+.skills-image section {
+  width: 80%;
+}
+
+.skill-list {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-ballon {
+  width: 150px;
+  height: 150px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 100px;
+  background-image: url(../img/skills/react-native.png);
+  background-size: 80% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 8px;
+}
+
+.skill-ballon div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  user-select: none;
+  transition: 0.5s all;
+}
+
+.skill-ballon div:hover {
+  opacity: 1;
+}
+
+#html5 {
+  background-image: url(../img/skills/html5.png);
+}
+
+#css3 {
+  background-image: url(../img/skills/css3.png);
+}
+
+#js {
+  background-image: url(../img/skills/js.png);
+}
+
+#nodejs {
+  background-image: url(../img/skills/nodejs.png);
+}
+
+#reactjs {
+  background-image: url(../img/skills/react.png);
+}
+
+#react-native {
+  background-image: url(../img/skills/react-native.png);
+}
+
+#electron {
+  background-image: url(../img/skills/electron.png);
+}
+
+#python {
+  background-image: url(../img/skills/python.png);
+}
+
+#inkscape {
+  background-image: url(../img/skills/inkscape.png);
+}
+
+#powerpoint {
+  background-image: url(../img/skills/powerpoint.png);
+}
+
+.portfolio-p {
+  text-align: center;
 }
 
 a {

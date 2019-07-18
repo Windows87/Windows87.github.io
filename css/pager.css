@@ -1,0 +1,45 @@
+.pager {
+  width: 100%;
+  position: relative;
+}
+
+.pager-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.pager-buttons button {
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s all;
+  font-weight: bold;
+  flex: 1 1 auto;
+}
+
+.pager-buttons button:focus {
+  outline: none;
+}
+
+.pager-buttons button:hover {
+  filter: brightness(80%);
+}
+
+.pager-buttonSelected {
+  filter: brightness(70%);
+}
+
+.pager-projects {
+  display: none;
+  animation-name: pagerProject;
+  animation-duration: 1s;
+}
+
+@keyframes pagerProject {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
