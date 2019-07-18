@@ -95,7 +95,6 @@ p {
 }
 
 .my-networks img {
-  filter: grayscale(1);
   transition: 0.2s all;
   width: 50px;
   cursor: pointer;
