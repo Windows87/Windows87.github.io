@@ -20,6 +20,7 @@ const projects = {
 function setProjectFullScreen(projectId) {
   const project = projects[projectId];
 
+  const body = document.querySelector('body');
   const pagerProjectBackground = document.querySelector('#pager-project-background');
   const pagerProjectTitle = document.querySelector('#pager-project-background header span');
   const pagerProjectGithubLink = document.querySelector('#paper-project-github-link');
@@ -28,6 +29,7 @@ function setProjectFullScreen(projectId) {
   const pagerProjectArticle = document.querySelector('#pager-project-background article p');
   const pagerProjectLanguages = document.querySelector('#pager-project-languages');
 
+  body.style['overflow'] = 'hidden';
   pagerProjectGithubLink.style['display'] = 'block';
 
   if(!project.github)
@@ -65,8 +67,11 @@ function setProjects() {
 const pagerProjectExit = document.querySelector('#pager-project-exit');
 
 pagerProjectExit.addEventListener('click', () => {
+  const body = document.querySelector('body');
   const pagerProjectBackground = document.querySelector('#pager-project-background');
+  
   pagerProjectBackground.style['display'] = 'none';
+  body.style['overflow'] = 'auto';
 });
 
 setProjects();
