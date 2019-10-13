@@ -1,0 +1,122 @@
+.vertical-pager {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.vertical-pager-project {
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  transition: 0.5s all;
+  user-select: none;
+  cursor: pointer;
+}
+
+.vertical-pager-project:hover {
+  height: 120px;
+}
+
+.vertical-pager-project img {
+  height: 100%;
+}
+
+.vertical-pager-project span {
+  padding: 8px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#pager-project-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  transition: 0.5s all;
+  display: none;
+}
+
+#pager-project-background header {
+  width: calc(70% - 32px);
+  margin: 8px;
+  padding: 8px;
+  background-color: white;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+#paper-project-github-link {
+  width: 30px;
+  height: 30px;
+}
+
+#paper-project-github {
+  width: 30px;
+  height: 30px;
+}
+
+#pager-project-image {
+  width: calc(70% - 16px);
+  margin: 8px;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
+}
+
+#pager-project-background article {
+  width: calc(70% - 32px);
+  margin: 8px;
+  padding: 8px;
+  background-color: white;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
+  color: gray;
+}
+
+#pager-project-background article p {
+  margin-bottom: 4px;
+}
+
+#pager-project-exit {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 30px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+
+#pager-project-languages {
+  display: flex;
+  padding: 8px;
+}
+
+#pager-project-languages span {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  padding: 4px;
+  margin-left: 4px;
+}
