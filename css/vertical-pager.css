@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,7 +69,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #141414;
   font-size: 24px;
+  color: white;
 }
 
 #paper-project-github-link {
@@ -93,6 +96,7 @@
   padding: 8px;
   background-color: white;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.4);
+  background-color: #141414;
   color: gray;
 }
 
@@ -121,4 +125,5 @@
   border-radius: 20px;
   padding: 4px;
   margin-left: 4px;
+  user-select: none;
 }
