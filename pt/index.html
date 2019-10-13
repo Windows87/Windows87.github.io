@@ -4,11 +4,12 @@
     <title>Yuri Faria - Meu Currículo Incrível =)</title>
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/pager.css">
+    <link rel="stylesheet" type="text/css" href="../css/vertical-pager.css">
     <link rel="shortcut icon" href="../img/favicon.ico" />
 
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
 
     <meta itemprop="name" content="Yuri Faria - Meu Currículo Incrível =)">
@@ -141,315 +142,87 @@
       <section>
         <header>
           <h2>Portfólio</h2>
-          <p class="portfolio-p">Clique no nome do Projeto para ir no Repositório do Github</p>
+          <p class="portfolio-p">Clique no nome do Projeto para Ver Mais</p>
         </header>
 
-        <div class="pager">
-          <div class="pager-buttons">
-            <button id="frontend">Frontend</button>
-            <button id="backend">Backend</button>
-            <button id="mobile">Mobile</button>
-            <button id="desktop">Desktop</button>
-            <button id="others">Outros</button>
-          </div>
-
-          <div class="pager-projects" for="frontend">
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/wikigame.png" alt="the wikipedia article game logo" />
-                <header>
-                  <a href="https://github.com/Windows87/the-wikipedia-article-game"><strong>The Wikipedia Article Game</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3 e VanillaJS</span><br>
-                  <span class="subtitle-2">Jul/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse é um jogo que você deve acertar qual artigo apresenta mais visualizações baseado somente na sua imagem e nome. Você pode jogar <a href="https://windows87.github.io/the-wikipedia-article-game/"><b>clicando aqui</b></a>. 
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/combine-website/"><strong>Combine Website</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3 e VanillaJS</span><br>
-                  <span class="subtitle-2">Mai/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse é um website fake sobre os Combines do Half-Life 2. Você pode ver <a href="https://windows87.github.io/combine-website/">clicando aqui</a>.
-              </p>
-            </article>  
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/vanilla-chat/"><strong>Vanilla Chat</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3, VanillaJS, NodeJS e Socket.io</span><br>
-                  <span class="subtitle-2">Fev/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse é um exemplo de chat utilizando HTML5, CSS3, VanillaJS e NodeJS utilizando Sockets.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/xbm-viewer-converter/"><strong>XBM Viewer and Converter</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3 e VanillaJS</span><br>
-                  <span class="subtitle-2">Jan/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Você pode converter imagens e criar imagens em .xbm. Você pode usar <a href="https://windows87.github.io/xbm-viewer-converter/"><b>clicando aqui</b></a>.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/react-chat/"><strong>React Chat</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS, MongoDB e Socket.io</span><br>
-                  <span class="subtitle-2">Jul/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um exemplo de Chat com ReactJS e NodeJS utilizando sockets.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/calc"><strong>Calc!</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3 e VanillaJS</span><br>
-                  <span class="subtitle-2">Nov/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-               É um jogo simples sobre matemática que eu fiz para uma exposição de matemática no Ensino Fundamental II. Você pode jogar <a href="https://windows87.github.io/calc/"><b>clicando aqui</b></a>.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/outtfy.png" alt="outtfy logo" />
-                <header>
-                  <a href="https://github.com/Windows87/outtfy/"><strong>Outtfy Website</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3 e VanillaJS</span><br>
-                  <span class="subtitle-2">Set/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse foi um site desenvolvido para uma ideia de startup, mas essa ideia não funcionou. Mas você pode ver o website <a href="https://windows87.github.io/outtfy-website/"><b>clicando aqui</b></a>.  
-              </p>
-            </article>  
-
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/geobattle.png" alt="geobattle logo" />
-                <header>
-                  <a href="https://github.com/Windows87/geobattle/"><strong>GeoBattle</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS, Socket.io e neDB</span><br>
-                  <span class="subtitle-2">2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um jogo multiplayer que tem o objetivo de acertar o máximo de questões sobre Geografia. Eu fiz esse jogo para uma exposição sobre Geografia no Ensino Fundamental II.
-              </p>
-            </article>                                    
-          </div>
-
-          <div class="pager-projects" for="backend">
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/LeoFC97/pptx-maker"><strong>Science Quotes</strong></a><br>
-                  <span class="subtitle-1">NodeJS, MongoDB</span><br>
-                  <span class="subtitle-2">Jul/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Essa é uma API REST que você pode ler, criar, atualizar e deletar citações sobre temas relacionados a ciência, como astronomia, matemática e física. 
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/vanilla-chat/"><strong>Vanilla Chat</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3, VanillaJS, NodeJS e Socket.io</span><br>
-                  <span class="subtitle-2">Fev/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse é um exemplo de chat utilizando HTML5, CSS3, VanillaJS e NodeJS utilizando Sockets.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/RNMaps"><strong>RNMaps</strong></a><br>
-                  <span class="subtitle-1">React-Native, NodeJS e MongoDB</span><br>
-                  <span class="subtitle-2">Set/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um aplicativo de exemplo do Google Maps SDK para React Native. No aplicativo você pode marcar pontos com ícones.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/react-chat/"><strong>React Chat</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS, MongoDB e Socket.io</span><br>
-                  <span class="subtitle-2">Jul/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um exemplo de Chat com ReactJS e NodeJS utilizando sockets.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/geobattle.png" alt="geobattle logo" />
-                <header>
-                  <a href="https://github.com/Windows87/geobattle/"><strong>GeoBattle</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS, Socket.io e neDB</span><br>
-                  <span class="subtitle-2">2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um jogo multiplayer que tem o objetivo de acertar o máximo de questões sobre Geografia. Eu fiz esse jogo para uma exposição sobre Geografia no Ensino Fundamental II.
-              </p>
-            </article>            
-          </div>
-
-          <div class="pager-projects" for="mobile">
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/RNMaps"><strong>RNMaps</strong></a><br>
-                  <span class="subtitle-1">React-Native, NodeJS and MongoDB</span><br>
-                  <span class="subtitle-2">Set/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um aplicativo de exemplo do Google Maps SDK para React Native. No aplicativo você pode marcar pontos com ícones.
-              </p>
-            </article>
-          </div>
-
-          <div class="pager-projects" for="desktop">
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/notes.png" alt="react notes logo" />
-                <header>
-                  <a href="https://github.com/Windows87/react-notes/"><strong>React Notes</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS, NWjs e neDB</span><br>
-                  <span class="subtitle-2">Ago/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                É uma aplicação desktop para notas. Você pode baixar <a href="http://download1640.mediafire.com/g5sqwhvudpgg/65g3e1474fsrqr8/setup32.exe"><b>aqui para Windows XP+ (32 bit)</b></a> ou <a href="http://download2263.mediafire.com/s1fgfp4qg6cg/2c0ici4dz0leou8/setup64.exe"><b>Windows XP+ (64 Bits)</b></a>.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/library.png" alt="library system logo" />
-                <header>
-                  <a href="https://github.com/Windows87/biblioteca/"><strong>Sistema de Biblioteca</strong></a><br>
-                  <span class="subtitle-1">ReactJS, NodeJS e Electron</span><br>
-                  <span class="subtitle-2">Mai/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                Esse é um sistema de biblioteca completo que eu desenvolvi para a minha escola quando estava no Ensino Fundamental II. Você pode fazer o download <a href="http://www.mediafire.com/file/mma5n5z0a2mea3j/Setup.exe/file"><b>aqui para Windows 7+</b></a> e fazer o download o <a href="http://www.mediafire.com/file/5y046q0oy382q12/Manual_do_Sistema_da_Biblioteca.pdf/file"><b>manual aqui</b></a>.
-              </p>
-            </article>
-
-            <article>
-              <div class="project-block">
-                <header>
-                  <a href="https://github.com/Windows87/react-notes/"><strong>NWjs Contact List</strong></a><br>
-                  <span class="subtitle-1">HTML5, CSS3, VanillaJS, NWjs and neDB</span><br>
-                  <span class="subtitle-2">Ago/2018</span><br>
-                </header>
-              </div>
-
-              <p>
-                Essa é uma aplicação de lista de contatos.
-              </p>
-            </article>
-          </div>                              
+        <h3>Frontend</h3>
+        <div class="vertical-pager">
+          <article id="wikigame" class="vertical-pager-project">
+            <img src="../img/projects/wikigame.png">
+          </article>
+          <article id="combine" class="vertical-pager-project">
+            <img src="../img/projects/combine.png">
+          </article>
+          <article id="vanillachat" class="vertical-pager-project">
+            <img src="../img/projects/vanillachat.png">
+          </article>
+          <article id="xbm" class="vertical-pager-project">
+            <img src="../img/projects/xbm.png">
+          </article>          
+          <article id="reactchat" class="vertical-pager-project">
+            <img src="../img/projects/reactchat.png">
+          </article>
+          <article id="calc" class="vertical-pager-project">
+            <img src="../img/projects/calc.png">
+          </article>
+          <article id="outtfy" class="vertical-pager-project">
+            <img src="../img/projects/outtfy.png">
+          </article>
+          <article id="geobattle" class="vertical-pager-project">
+            <img src="../img/projects/geobattle.png">
+          </article>                              
         </div>
 
-        <div class="pager-projects" for="others">
-          <article>
-            <div class="project-block">
-              <header>
-                <a href="https://github.com/Windows87/quotes-photos-generator"><strong>Quote Photos Generator</strong></a><br>
-                <span class="subtitle-1">NodeJS</span><br>
-                <span class="subtitle-2">Jul/2019</span><br>
-              </header>
-            </div>
-
-            <p>
-              É um módulo node que gera uma foto com uma imagem de fundo com uma citação com palavras destacadas.
-            </p>
+        <h3>Backend</h3>
+        <div class="vertical-pager">
+          <article id="sciencequotes" class="vertical-pager-project">
+            <span>Science Quotes</span>
           </article>
+          <article id="vanillachat" class="vertical-pager-project">
+            <img src="../img/projects/vanillachat.png">
+          </article>          
+          <article id="rnmaps" class="vertical-pager-project">
+            <img src="../img/projects/rnmaps.png">
+          </article>
+          <article id="reactchat" class="vertical-pager-project">
+            <img src="../img/projects/reactchat.png">
+          </article>
+          <article id="geobattle" class="vertical-pager-project">
+            <img src="../img/projects/geobattle.png">
+          </article>           
+        </div>
 
-          <article>
-              <div class="project-block">
-                <img src="../img/projects/pptx-maker.png" alt="pptx maker logo" />
-                <header>
-                  <a href="https://github.com/LeoFC97/pptx-maker"><strong>PPTX Maker</strong></a><br>
-                  <span class="subtitle-1">NodeJS</span><br>
-                  <span class="subtitle-2">Jul/2019</span><br>
-                </header>
-              </div>
+        <h3>Desktop</h3>
+        <div class="vertical-pager">
+          <article id="reactnotes" class="vertical-pager-project">
+            <img src="../img/projects/reactnotes.png">
+          </article>
+          <article id="library" class="vertical-pager-project">
+            <img src="../img/projects/library.png">
+          </article>
+          <article id="contactlist" class="vertical-pager-project">
+            <img src="../img/projects/contactlist.png">
+          </article>                    
+        </div>
 
-              <p>
-                É uma aplicação para gerar apresentações powerpoint automáticas. Não sou o dono do repositório mas sou contribuidor.
-              </p>
-            </article>
+        <h3>Mobile</h3>
+        <div class="vertical-pager">
+          <article id="rnmaps" class="vertical-pager-project">
+            <img src="../img/projects/rnmaps.png">
+          </article>
+        </div>
 
-            <article>
-              <div class="project-block">
-                <img src="../img/projects/card.png" alt="card" />
-                <header>
-                  <a href="https://github.com/LeoFC97/pptx-maker"><strong>TrucoCraft</strong></a><br>
-                  <span class="subtitle-1">Javascript</span><br>
-                  <span class="subtitle-2">Mar/2019</span><br>
-                </header>
-              </div>
-
-              <p>
-                É um plugin de Truco para Minecraft usando Javascript e Scriptcraft.
-              </p>
-            </article>                      
+        <h3>Other</h3>
+        <div class="vertical-pager">
+          <article id="quotesgenerator" class="vertical-pager-project">
+            <img src="../img/projects/quotesgenerator.png">
+          </article>
+          <article id="pptxmaker" class="vertical-pager-project">
+            <img src="../img/projects/pptx-maker.png">
+          </article>
+          <article id="trucocraft" class="vertical-pager-project">
+            <img src="../img/projects/trucocraft.png">
+          </article>                    
         </div>
       </section>
 
@@ -472,7 +245,23 @@
       </section>             
     </main>
 
-    <script type="text/javascript" src="../js/pager.js"></script>
+    <div id="pager-project-background">
+      <i class="material-icons" id="pager-project-exit">close</i>
+
+      <img id="pager-project-image">
+
+      <header>
+        <span></span>
+        <a id="paper-project-github-link" target="_blank"><img id="paper-project-github" src="../img/logos/github.png"/></a>
+      </header>
+
+      <article>
+        <p></p>
+        <div id="pager-project-languages"></div>
+      </article>
+    </div>
+
+    <script type="text/javascript" src="../js/vertical-pager-pt.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>
