@@ -16,7 +16,8 @@ const projects = {
   'quotesgenerator': { title: 'Quotes Generator', image: `quotesgenerator.png`, text: `It's a node module that generate a photo with a background image and a quote with highlighted words.`, github: `https://github.com/Windows87/quotes-photos-generator`, languages: ['NodeJS', 'Jul/2019'] },
   'pptxmaker': { title: 'PPTX Maker', text: `It's a desktop application that generate powerpoint presentations. I'm not the repository owner but I'm a contributor.`, github: `https://github.com/LeoFC97/pptx-maker`, languages: ['NodeJS', 'Jul/2019'] },
   'trucocraft': { title: 'Trucocraft', image: `trucocraft.png`, text: `It's a Minecraft plugin made with Javascript about a card game ("Truco", it's very popular in South America).`, github: `https://github.com/Windows87/trucocraft`, languages: ['Javascript', 'ScriptCraft', 'Mar/2019'] },
-  'sciencequotes': { title: 'Science Quotes', text: `It's a API REST that you can get, post, update and delete quotes about science themes, like Astronomy, Math and Physics.`, github: `https://github.com/Windows87/science-quotes`, languages: ['NodeJS', 'MongoDB', 'Jul/2019'] }
+  'sciencequotes': { title: 'Science Quotes', text: `It's a API REST that you can get, post, update and delete quotes about science themes, like Astronomy, Math and Physics.`, github: `https://github.com/Windows87/science-quotes`, languages: ['NodeJS', 'MongoDB', 'Jul/2019'] },
+  'wikimobile': { title: 'The Wikipedia Article Game Mobile', image: `wikimobile.png`, text: `Wikipedia game that you need hit which is most viewed by its photos and names. It's the <a href="https://windows87.github.io/the-wikipedia-article-game/">The Wikipedia Article Game</a> mobile version.`, github: `https://github.com/Windows87/the-wikipedia-article-game-mobile/`, languages: ['React-Native', 'Out/2019'] }
 };
 
 function setProjectFullScreen(projectId) {
