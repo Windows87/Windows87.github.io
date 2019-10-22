@@ -27,6 +27,7 @@ function setProjectFullScreen(projectId) {
   const pagerProjectBackground = document.querySelector('#pager-project-background');
   const pagerProjectTitle = document.querySelector('#pager-project-background header span');
   const pagerProjectGithubLink = document.querySelector('#paper-project-github-link');
+  const pagerProjectGooglePlayLink = document.querySelector('#paper-project-google-play-link');  
   const pagerProjectImage = document.querySelector('#pager-project-image');
   const pagerProjectSpan = document.querySelector('#paper-project-span');
   const pagerProjectArticle = document.querySelector('#pager-project-background article p');
@@ -34,9 +35,13 @@ function setProjectFullScreen(projectId) {
 
   body.style['overflow'] = 'hidden';
   pagerProjectGithubLink.style['display'] = 'block';
+  pagerProjectGooglePlayLink.style['display'] = 'block';
 
   if(!project.github)
   	pagerProjectGithubLink.style['display'] = 'none';
+
+  if(!project.googlePlay)
+    pagerProjectGooglePlayLink.style['display'] = 'none';    
 
   pagerProjectBackground.style['display'] = 'flex';
   
@@ -50,6 +55,7 @@ function setProjectFullScreen(projectId) {
   pagerProjectTitle.innerText = project.title;
   pagerProjectArticle.innerHTML = project.text;
   pagerProjectGithubLink.href = project.github;
+  pagerProjectGooglePlayLink.href = project.googlePlay;
 
   pagerProjectLanguages.innerHTML = '';
 

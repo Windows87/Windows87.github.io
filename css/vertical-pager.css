@@ -74,14 +74,21 @@
   color: white;
 }
 
-#paper-project-github-link {
-  width: 30px;
-  height: 30px;
+#paper-project-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#paper-project-github {
-  width: 30px;
-  height: 30px;
+.paper-project-link {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+.paper-project-link-image {
+  width: 40px;
+  height: 40px;
 }
 
 #pager-project-image {
