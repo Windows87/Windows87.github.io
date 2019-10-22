@@ -272,3 +272,7 @@ b {
   color: white;
 }
 
+li {
+  color: white;
+  font-weight: bold;
+}
