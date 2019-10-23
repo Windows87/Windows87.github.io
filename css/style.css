@@ -276,15 +276,22 @@ header, .skills-image {
 
 a {
   font-size: 105%;
+  color: white;
 }
 
 b {
   color: white;
 }
 
-li {
-  color: white;
+.bold-two {
   font-weight: bold;
+  color: #afafaff7;
+}
+
+li {
+  text-align: justify;
+  color: white;
+  margin-bottom: 8px;
 }
 
 #academic article, #education article {
