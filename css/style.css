@@ -290,8 +290,9 @@ b {
 
 li {
   text-align: justify;
-  color: white;
+  color: #d8d8d8;
   margin-bottom: 8px;
+  font-size: 18px;
 }
 
 #academic article, #education article {
