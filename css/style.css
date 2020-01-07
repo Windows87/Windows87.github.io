@@ -132,15 +132,20 @@ p {
   width: 55px;
 }
 
-.education-block, .project-block {
+.profissional-block, .education-block, .project-block {
   display: flex;
   align-items: center;
 }
 
-.education-block img, .project-block img {
+.profissional-block img, .education-block img, .project-block img {
   height: 60px;
   margin: 12px;
   margin-left: 0;
+}
+
+.profissional-block header, .education-block header, .project-block header {
+  display: flex;
+  flex-direction: column;
 }
 
 .subtitle-1 {
@@ -295,12 +300,12 @@ li {
   font-size: 18px;
 }
 
-#academic article, #education article {
+#profissional article, #academic article, #education article {
   padding: 12px;
   border-radius: 24px;
   transition: 0.5s background-color;
 }
 
-#academic article:hover, #education article:hover {
+#profissional article:hover, #academic article:hover, #education article:hover {
   background-color: #101010;
 }

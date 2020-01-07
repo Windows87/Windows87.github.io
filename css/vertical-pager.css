@@ -33,6 +33,7 @@
 
 .vertical-pager-project span {
   padding: 8px;
+  text-align: center;
 }
 
 .vertical-pager::-webkit-scrollbar{
