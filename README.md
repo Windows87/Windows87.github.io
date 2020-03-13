@@ -53,7 +53,7 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 
 - **Ambientes Gamificados para Facilitar o Processo de Ensino-Aprendizagem de Fundamentos de Programação de Computadores** *(Gamified Environments to Facilitate the Teaching-Learning Process of Computer Programming Fundamentals)* - 2019/2020 - With CNPq grant - In Progress
 
-### Ministred Courses by Me
+### Courses ministered by Me
 - **Javascript Moderno** *(Modern Javascript)* - August 29, 2019 - 4h
 
 ### Events
