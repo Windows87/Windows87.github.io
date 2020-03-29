@@ -32,6 +32,7 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
 - Physics Conquest Game - Web - Nov/2019 - <a href="https://github.com/Windows87/physics-conquest-game">Github Repository</a>
 - Science Quotes - API - Jul/2019 - <a href="https://github.com/Windows87/science-quotes">Github Repository</a>
+- SlideAI - Web/Desktop - Dec/2019 - <a href="https://github.com/LeoFC97/pptx-maker">Github Repository (Desktop)</a> and <a href="https://github.com/slideai">Github Organization (Web)</a>
 
 #### Less Relevant
 - Flask Image! - Web - Mar/2020 - <a href="https://github.com/Windows87/image-upload-flask">Github Repository</a>
