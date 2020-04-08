@@ -8,13 +8,25 @@ Hi! I'm Yuri Faria, Brazilian, FullStack, and 16 years old. I like to create thi
 I started programming when I was making games with Construct 2 in 2015. Later I started learn HTML, CSS and PHP in 2016. In 2017 I started learn Javascript/Ajax/APIs. In 2018 I started learn React, React-Native, NodeJS and Javascript technologies. In all in these years I maked a lot of personal projects, startup projects and school projects.
 
 ## Skills
+### Languages
 - HTML5 and CSS3
 - Javascript (ES6+)
+- Python
+
+### Frameworks
+- Express
 - React and Redux
 - React-Native
 - Electron and NWjs
-- NodeJS
+- Flask
+
+### Database
+- MySQL
+- MongoDB
+
+### Others
 - Inkscape
+- PowerPoint
 
 ## Projects
 ### Up and Running
@@ -29,10 +41,11 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 
 #### Just for Fun
+- <a href="https://superhero-akinator.herokuapp.com/">Superhero Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/superhero-akinator">Github Repository</a>
+- SlideAI - Web/Desktop - Dec/2019 - <a href="https://github.com/LeoFC97/pptx-maker">Github Repository (Desktop)</a> and <a href="https://github.com/slideai">Github Organization (Web)</a>
 - Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
 - Physics Conquest Game - Web - Nov/2019 - <a href="https://github.com/Windows87/physics-conquest-game">Github Repository</a>
 - Science Quotes - API - Jul/2019 - <a href="https://github.com/Windows87/science-quotes">Github Repository</a>
-- SlideAI - Web/Desktop - Dec/2019 - <a href="https://github.com/LeoFC97/pptx-maker">Github Repository (Desktop)</a> and <a href="https://github.com/slideai">Github Organization (Web)</a>
 
 #### Less Relevant
 - Flask Image! - Web - Mar/2020 - <a href="https://github.com/Windows87/image-upload-flask">Github Repository</a>
@@ -63,6 +76,10 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 ### Events
 - **Desafio Maker** *(Maker Challenge)* - November 23, 2019 - 8h - 2nd Place
 
+### Knowledge Olympics
+- **Mathématiques Sans Frontières - Nacional** ** - April 5, 2019 - Bronze
+- **Mathématiques Sans Frontières - Estadual** ** - April 5, 2019 - Silver
+
 ## Education
 - **Computing Technician integrated with High School** - Instituto Federal - Campus Muzambinho - Eleventh grade
 
@@ -73,3 +90,4 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
     - **Docker** - Instituto Federal - Campus Muzambinho - 4h
     - **Curso Completo do Desenvolvedor NodeJS e MongoDB** *(NodeJS and MongoDB Developer Full Course)* - Udemy - 15.5h
     - **Desenvolvendo uma aplicação GUI com Python e Tkinter** *(Developing a GUI application with Python and Tkinter)* - Udemy - 1.5h
+    - **Competência Transversal - Tecnologia da Informação e Comunicação** *(Cross Competence - Information and Communication Technology)* - SENAI - 14h
