@@ -41,6 +41,7 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 
 #### Just for Fun
+- <a href="https://programming-language-akinator.herokuapp.com/">Programming Language Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/programming-language-akinator">Github Repository</a>
 - <a href="https://superhero-akinator.herokuapp.com/">Superhero Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/superhero-akinator">Github Repository</a>
 - SlideAI - Web/Desktop - Dec/2019 - <a href="https://github.com/LeoFC97/pptx-maker">Github Repository (Desktop)</a> and <a href="https://github.com/slideai">Github Organization (Web)</a>
 - Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
@@ -77,8 +78,8 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - **Desafio Maker** *(Maker Challenge)* - November 23, 2019 - 8h - 2nd Place
 
 ### Knowledge Olympics
-- **Mathématiques Sans Frontières - Nacional** ** - April 5, 2019 - Bronze
-- **Mathématiques Sans Frontières - Estadual** ** - April 5, 2019 - Silver
+- **Mathématiques Sans Frontières - Nacional** - April 5, 2019 - Bronze
+- **Mathématiques Sans Frontières - Estadual** - April 5, 2019 - Silver
 
 ## Education
 - **Computing Technician integrated with High School** - Instituto Federal - Campus Muzambinho - Eleventh grade
