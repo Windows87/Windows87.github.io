@@ -93,3 +93,4 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
     - **Curso Completo do Desenvolvedor NodeJS e MongoDB** *(NodeJS and MongoDB Developer Full Course)* - Udemy - 15.5h
     - **Desenvolvendo uma aplicação GUI com Python e Tkinter** *(Developing a GUI application with Python and Tkinter)* - Udemy - 1.5h
     - **Competência Transversal - Tecnologia da Informação e Comunicação** *(Cross Competence - Information and Communication Technology)* - SENAI - 14h
+    - **Desenvolvimento de Equipes** *(Team Development)* - Senado - 10h
