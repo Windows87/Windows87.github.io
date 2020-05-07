@@ -75,6 +75,9 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 ### Courses ministered by Me
 - **Javascript Moderno** *(Modern Javascript)* - August 29, 2019 - 4h
 
+### Event organizing committee
+- **IFSULDEMINAS - Hackathon Covid-19** - April, 18, 2020
+
 ### Events
 - **IFSULDEMINAS - Hackathon Covid-19** - April, 18, 2020 - 96h - 1st Place
 - **Desafio Maker** *(Maker Challenge)* - November 23, 2019 - 8h - 2nd Place
