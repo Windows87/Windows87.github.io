@@ -31,22 +31,23 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 ## Projects
 ### Up and Running
 - <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile and Web - 2019/Today
+
 ### Open Source Projects
 #### Relevant  
+- <a href="https://play.google.com/store/apps/details?id=com.thewikipediaarticlegamemobile">The Wikipédia Article Game Mobile</a> - Mobile - Oct/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game-mobile/">Github Repository</a>
+- Basic Javascript Guide (Portuguese) - Markdown - Oct/2019 - <a href="https://github.com/Windows87/guia-basico-javascript">Github Repository</a>
 - <a href="https://windows87.github.io/the-wikipedia-article-game/">The Wikipédia Article Game</a> - Web - Jul/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game">Github Repository</a>
-- <a href="https://play.google.com/store/apps/details?id=com.thewikipediaarticlegamemobile">The Wikipédia Article Game Mobile</a> - Mobile - Out/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game-mobile/">Github Repository</a>
+- Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 - Geobattle - Web - 2018 - <a href="https://github.com/Windows87/geobattle/">Github Repository</a>
 - Library System - Desktop - Aug/2018 - <a href="https://github.com/Windows87/biblioteca/">Github Repository</a>
-- Basic Javascript Guide (Portuguese) - Markdown - Oct/2019 - <a href="https://github.com/Windows87/guia-basico-javascript">Github Repository</a>
-- Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 
 #### Just for Fun
 - <a href="https://programming-language-akinator.herokuapp.com/">Programming Language Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/programming-language-akinator">Github Repository</a>
 - <a href="https://superhero-akinator.herokuapp.com/">Superhero Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/superhero-akinator">Github Repository</a>
 - SlideAI - Web/Desktop - Dec/2019 - <a href="https://github.com/LeoFC97/pptx-maker">Github Repository (Desktop)</a> and <a href="https://github.com/slideai">Github Organization (Web)</a>
-- Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
 - Physics Conquest Game - Web - Nov/2019 - <a href="https://github.com/Windows87/physics-conquest-game">Github Repository</a>
 - Science Quotes - API - Jul/2019 - <a href="https://github.com/Windows87/science-quotes">Github Repository</a>
+- Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
 
 #### Less Relevant
 - Sistema Hackathon Covid-19 IFSULDEMINAS - Web - Apr/2020 - <a href="https://github.com/Windows87/sistema-hackathon-covid19">Github Repository</a>
@@ -54,12 +55,12 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - <a href="https://windows87.github.io/mini-pokedex/">Mini Pokedex</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/mini-pokedex">Github Repository</a>
 - <a href="https://windows87.github.io/seminfo-javascript-moderno/">Oficina de Javascript</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/seminfo-javascript-moderno">Github Repository</a>
 - <a href="https://windows87.github.io/combine-website/">Combine Website</a> - Web - May/2019 - <a href="https://github.com/Windows87/combine-website/">Github Repository</a>
+- Vanilla Chat - Web - Feb/2019 - <a href="https://github.com/Windows87/vanilla-chat/">Github Repository</a>
 - <a href="https://windows87.github.io/xbm-viewer-converter/">XBM Viewer and Converter</a> - Web - Jan/2019 - <a href="https://github.com/Windows87/xbm-viewer-converter/">Github Repository</a>
 - <a href="https://windows87.github.io/calc/">Calc!</a> - Web - Nov/2018 - <a href="https://github.com/Windows87/calc">Github Repository</a>
+- RNMaps - Mobile - Sep/2018 - <a href="https://github.com/Windows87/RNMaps">Github Repository</a>
 - React Notes - Desktop - Aug/2018 - <a href="https://github.com/Windows87/react-notes/">Github Repository</a>
 - NWjs Contact List - Desktop - Aug/2018 - <a href="https://github.com/Windows87/nwjs-contact-list/">Github Repository</a>
-- RNMaps - Mobile - Sep/2018 - <a href="https://github.com/Windows87/RNMaps">Github Repository</a>
-- Vanilla Chat - Web - Feb/2019 - <a href="https://github.com/Windows87/vanilla-chat/">Github Repository</a>
 - React Chat - Web - Jul/2018 - <a href="https://github.com/Windows87/react-chat/">Github Repository</a>
 
 ## Professional
