@@ -34,8 +34,10 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 
 ### Open Source Projects
 #### Relevant  
+- DeepLab - Web - May/2020 - <a href="https://github.com/Windows87/deeplab">Github Repository</a>
 - <a href="https://play.google.com/store/apps/details?id=com.thewikipediaarticlegamemobile">The Wikipédia Article Game Mobile</a> - Mobile - Oct/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game-mobile/">Github Repository</a>
 - Basic Javascript Guide (Portuguese) - Markdown - Oct/2019 - <a href="https://github.com/Windows87/guia-basico-javascript">Github Repository</a>
+- URI Python Answers - URI - 2019 - <a href="https://github.com/Windows87/uri-python">Github Repository</a>
 - <a href="https://windows87.github.io/the-wikipedia-article-game/">The Wikipédia Article Game</a> - Web - Jul/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game">Github Repository</a>
 - Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 - Geobattle - Web - 2018 - <a href="https://github.com/Windows87/geobattle/">Github Repository</a>
@@ -99,3 +101,4 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
     - **Desenvolvendo uma aplicação GUI com Python e Tkinter** *(Developing a GUI application with Python and Tkinter)* - Udemy - 1.5h
     - **Competência Transversal - Tecnologia da Informação e Comunicação** *(Cross Competence - Information and Communication Technology)* - SENAI - 14h
     - **Desenvolvimento de Equipes** *(Team Development)* - Senado - 10h
+    - **Algoritmos Genéticos em Python** *(Genetic Algorithms with Python)* - Udemy - 4.5h
