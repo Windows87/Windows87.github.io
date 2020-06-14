@@ -103,3 +103,4 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
     - **Competência Transversal - Tecnologia da Informação e Comunicação** *(Cross Competence - Information and Communication Technology)* - SENAI - 14h
     - **Desenvolvimento de Equipes** *(Team Development)* - Senado - 10h
     - **Algoritmos Genéticos em Python** *(Genetic Algorithms with Python)* - Udemy - 4.5h
+    - **Carreira e Ciência de Dados** *(Career and Data Science)* - Instituto Federal - Campus Muzambinho - 1h
