@@ -44,6 +44,7 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - Library System - Desktop - Aug/2018 - <a href="https://github.com/Windows87/biblioteca/">Github Repository</a>
 
 #### Just for Fun
+- <a href="https://windows87.github.io/godot-pong-ai/">Godot Pong AI</a> - Game - Jun/2020 - <a href="https://github.com/Windows87/godot-pong-ai">Github Repository</a>
 - Presencial Black - Chrome Extension - Jun/2020 - <a href="https://github.com/Windows87/presencial-black">Github Repository</a>
 - <a href="https://programming-language-akinator.herokuapp.com/">Programming Language Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/programming-language-akinator">Github Repository</a>
 - <a href="https://superhero-akinator.herokuapp.com/">Superhero Akinator</a> - Web - Apr/2020 - <a href="https://github.com/Windows87/superhero-akinator">Github Repository</a>
