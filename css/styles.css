@@ -1,374 +1,379 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("../Montserrat-Regular.ttf");
+  font-family: "Montserrat";
+  src: url("../Montserrat-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: url("../Montserrat-Bold.ttf");
-    font-weight: bold;
-}
-
-:root {
-  --primary-color: #512da8;
-  --primary-color-light: #956afd;
-}
-
-a {
-  color: unset;
-  transition: color 0.5s;
-  text-decoration: none;
+  font-family: "Montserrat";
+  src: url("../Montserrat-Bold.ttf");
   font-weight: bold;
 }
 
+:root {
+--primary-color: #512da8;
+--primary-color-light: #956afd;
+}
+
+a {
+color: unset;
+transition: color 0.5s;
+text-decoration: none;
+font-weight: bold;
+}
+
 html {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  scroll-behavior: smooth;
+width: 100%;
+display: flex;
+justify-content: center;
+scroll-behavior: smooth;
 }
 
 body {
-  font-family: Montserrat;
-  width: calc(100% - 32px);
-  max-width: 1280px;
-  margin: 16px;
-  transition: 0.5s all;
+font-family: Montserrat;
+width: calc(100% - 32px);
+max-width: 1280px;
+margin: 16px;
+transition: 0.5s all;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 nav ul li {
-  margin-left: 12px;
+margin-left: 12px;
 }
 
 nav ul li a {
-  font-weight: normal;
+font-weight: normal;
 }
 
 .fa-bars {
-  font-size: 36px;
-  cursor: pointer;
-  display: none;
-  transition: 0.5s color;
+font-size: 36px;
+cursor: pointer;
+display: none;
+transition: 0.5s color;
 }
 
 .fa-bars:hover {
-  color: var(--primary-color);
+color: var(--primary-color);
 }
 
 .mode, #back {
-  cursor: pointer;
+cursor: pointer;
 }
 
 section {
-  margin-top: 16px;
-  margin-bottom: 16px;
+margin-top: 16px;
+margin-bottom: 16px;
 }
 
 .section-vertical {
-  display: flex;
+display: flex;
 }
 
 section .section-block {
-  flex: 1;
+flex: 1;
 }
 
 section .section-block-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 section .section-block-center img {
-  border-radius: 300px;
-  width: calc(80% - 64px);
+border-radius: 300px;
+width: calc(80% - 64px);
 }
 
 h1 {
-  font-size: 70px;
+font-size: 70px;
 }
 
 h2 {
-  font-size: 40px;
-  font-weight: unset;
+font-size: 40px;
+font-weight: unset;
 }
 
 h4 {
-  color: gray;
-  margin: 0;
-  font-weight: unset;
-  font-size: 14px;
+color: gray;
+margin: 0;
+font-weight: unset;
+font-size: 14px;
 }
 
 ul {
-  padding-left: 20px;
+padding-left: 20px;
 }
 
 p, ul li {
-  font-size: 20px;
-  text-align: justify;
-  color: gray;
-  line-height: 1.5;
-  padding-top: 4px;
-  padding-bottom: 4px;
+font-size: 20px;
+text-align: justify;
+color: gray;
+line-height: 1.5;
+padding-top: 4px;
+padding-bottom: 4px;
 }
 
 .first-p {
-  font-size: 30px;
+font-size: 30px;
 }
 
 .vertical-ul {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
+display: flex;
+flex-wrap: wrap;
+padding: 0;
 }
 
 .vertical-ul li {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  color: #3c3c3c;
-  padding-left: 12px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+display: flex;
+flex: 1;
+flex-direction: column;
+align-items: center;
+color: #3c3c3c;
+padding-left: 12px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .vertical-ul li i {
-  font-size: 50px;
-  margin-bottom: 12px;
+font-size: 50px;
+margin-bottom: 12px;
 }
 
 .vertical-ul li span {
-  font-size: 14px;
+font-size: 14px;
 }
 
 a:hover {
-  color: var(--primary-color);
+color: var(--primary-color);
 }
 
 .section-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .filter-div {
-  display: flex;
-  font-size: 20px;
-  color: gray;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  transition: color 0.5s;
-  cursor: pointer;
+display: flex;
+font-size: 20px;
+color: gray;
+align-items: center;
+justify-content: center;
+user-select: none;
+transition: color 0.5s;
+cursor: pointer;
 }
 
 .filter-div:hover {
-  color: var(--primary-color);
+color: var(--primary-color);
 }
 
 .filter-div i {
-  margin-left: 12px;
+margin-left: 12px;
 }
 
 .list {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .list-vertical {
-  flex-direction: unset;
-  flex-wrap: wrap;
+flex-direction: unset;
+flex-wrap: wrap;
 }
 
 .list .item {
-  flex: 1;
-  margin: 12px;
-  text-align: justify;
-  box-shadow: 1px 1px 20px 0px rgba(0,0,0, 0.2);
-  padding: 16px;
-  border-radius: 16px;
+flex: 1;
+margin: 12px;
+text-align: justify;
+box-shadow: 1px 1px 20px 0px rgba(0,0,0, 0.2);
+padding: 16px;
+border-radius: 16px;
 }
 
 .list .item h3, .list .item p {
-  margin-top: 4px;
-  margin-bottom: 4px;
+margin-top: 4px;
+margin-bottom: 4px;
 }
 
 .list-vertical .item {
-  min-width: calc(50% - 24px - 32px);
+min-width: calc(50% - 24px - 32px);
 }
 
 .item-with-image {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .item-with-image img {
-  width: 100px;
-  height: 100px;
-  margin-right: 22px;
+width: 100px;
+height: 100px;
+margin-right: 22px;
 }
 
 .item-with-background {
-  padding-top: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+padding-top: 0 !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
 }
 
 .item-with-background p, .item-with-background div {
-  padding-left: 16px;
-  padding-right: 16px;
+padding-left: 16px;
+padding-right: 16px;
 }
 
 .item-background {
-  height: 250px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game-mobile/master/screenshots/mobile-1.jpeg);
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  font-size: 24px;
-  padding: 0;
-  position: relative;
+height: 250px;
+background-size: cover;
+background-position: center;
+background-image: url(https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game-mobile/master/screenshots/mobile-1.jpeg);
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+margin-bottom: 16px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+font-size: 24px;
+padding: 0;
+position: relative;
 }
 
 .item-background::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;  
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.2);
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;  
 }
 
 .item-background i {
-  cursor: pointer;
-  z-index: 3;
+cursor: pointer;
+z-index: 3;
 }
 
 .tags-ul {
-  padding-left: 16px;
-  padding-right: 16px;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+padding-left: 16px;
+padding-right: 16px;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
 }
 
 .tags-ul li {
-  background-color: #DCDCDC;
-  font-size: 12px;
-  width: fit-content;
-  user-select: none;
-  margin: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
+background-color: #DCDCDC;
+font-size: 12px;
+width: fit-content;
+user-select: none;
+margin: 4px;
+padding-left: 4px;
+padding-right: 4px;
 }
 
 .section-icons {
-  font-size: 24px;
-  min-width: fit-content;
-  padding: 0 !important;
+font-size: 24px;
+min-width: fit-content;
+padding: 0 !important;
 }
 
 .section-icons a {
-  margin-left: 8px;
+margin-left: 8px;
 }
 
 .right {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 100%;
-  transition: 0.5s right;
-  background-color: white;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  transition: 0.5s all;
+position: fixed;
+top: 0;
+right: 0;
+width: 0;
+height: 100%;
+transition: 0.5s right;
+background-color: white;
+display: none;
+align-items: center;
+justify-content: center;
+transition: 0.5s all;
 }
 
 .right ul {
-  flex-direction: column;
+flex-direction: column;
+padding-left: 0;
 }
 
 .right ul li {
-  font-size: 32px;
+font-size: 32px;
 }
 
 .dark {
-  background-color: #121212;
-  color: white;
+background-color: #121212;
+color: white;
 }
 
 .dark p, .dark ul li {
-  color: #e6e6e6;
+color: #e6e6e6;
 }
 
 .dark h4 {
-  color: #ababab;
+color: #ababab;
 }
 
 .dark .tags-ul li {
-  background-color: #292929;
+background-color: #292929;
 }
 
 .dark .item {
-  background-color: #171717;
+background-color: #171717;
 }
 
 .dark a:hover {
-  color: var(--primary-color-light);
+color: var(--primary-color-light);
 }
 
 .dark header .fa-bars:hover {
-  color: var(--primary-color-light);
+color: var(--primary-color-light);
 }
 
 .dark .right {
-  background-color: #171717;
+background-color: #171717;
 }
 
 @media screen and (max-width: 728px) {
-  .list-vertical {
-    flex-direction: column;
-  }
+h1 {
+  text-align: center;
+}
 
-  .section-vertical {
-    flex-direction: column;
-  }
+.list-vertical {
+  flex-direction: column;
+}
 
-  .first-section {
-    flex-direction: column-reverse;
-  }
+.section-vertical {
+  flex-direction: column;
+}
 
-  header nav {
-    display: none;
-  }
+.first-section {
+  flex-direction: column-reverse;
+}
 
-  header .fa-bars {
-    display: block;
-  }
+header nav {
+  display: none;
+}
+
+header .fa-bars {
+  display: block;
+}
 }
