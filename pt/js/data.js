@@ -44,7 +44,7 @@ const projects = [
       'https://lh3.googleusercontent.com/7RhGV-tEXoMRbc0R-dMmj2OTX88e7rmdmlQAxUHj-rMye66G_O3M3q6jkCYCPf2_n9w=w1373-h910-rw',
       'https://lh3.googleusercontent.com/6IFPn4W5hggquUTDInu0juOGQY2Vi26PrtjP-D3SPnb5mT4iwBiQbqFi-LtMwK14-Msv=w1360-h957-rw'
     ],
-    description: 'Aplicativo que desenvolvi para os cursos técnicos da minha instituição (IFSULDEMINAS), com o objetivo de organizar as datas de prova, atividades e eventos. Consegui aplicá-lo e ter centenas de usuários cadastrados e dezenas de usuários usando diariamente.',
+    description: 'Aplicativo que desenvolvi para os cursos técnicos da minha instituição (IFSULDEMINAS), com o objetivo de organizar as datas de prova, atividades e eventos. Consegui aplicá-lo e ter centenas de usuários cadastrados e dezenas de usuários usando diariamente. O futuro do aplicativo é continuar sendo usado e atualizado regularmente.',
     technologies: [0, 1, 2],
     links: {
       redirect: 'https://play.google.com/store/apps/details?id=com.federalagenda'
