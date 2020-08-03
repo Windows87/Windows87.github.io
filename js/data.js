@@ -22,15 +22,15 @@ const technologies = {
 
 const months = {
   0: 'JAN',
-  1: 'FEV',
+  1: 'FEB',
   2: 'MAR',
-  3: 'ABR',
-  4: 'MAI',
+  3: 'APR',
+  4: 'MAY',
   5: 'JUN',
   6: 'JUL',
   7: 'AGO',
-  8: 'SET',
-  9: 'OUT',
+  8: 'SEP',
+  9: 'OCT',
   10: 'NOV',
   11: 'DEZ'
 };
@@ -38,13 +38,13 @@ const months = {
 const projects = [
   {
     id: 0,
-    name: 'Federal Agenda',
+    name: 'Federal Agenda (Portuguese)',
     images: [
       'https://lh3.googleusercontent.com/x4Psraa23hGQrm48wJtpGqk0YUp-X52xBEcWoSHNM7LWmkWV4MPHWTmKXz_2dDBd=w1373-h910-rw',
       'https://lh3.googleusercontent.com/7RhGV-tEXoMRbc0R-dMmj2OTX88e7rmdmlQAxUHj-rMye66G_O3M3q6jkCYCPf2_n9w=w1373-h910-rw',
       'https://lh3.googleusercontent.com/6IFPn4W5hggquUTDInu0juOGQY2Vi26PrtjP-D3SPnb5mT4iwBiQbqFi-LtMwK14-Msv=w1360-h957-rw'
     ],
-    description: 'Aplicativo que desenvolvi para os cursos técnicos da minha instituição (IFSULDEMINAS), com o objetivo de organizar as datas de prova, atividades e eventos. Consegui aplicá-lo e ter centenas de usuários cadastrados e dezenas de usuários usando diariamente. O futuro do aplicativo é continuar sendo usado e atualizado regularmente.',
+    description: 'Application that I developed for the technical courses of my education institution (IFSULDEMINAS), in order to organize the test dates, activities and events. I managed to apply it and have hundreds of registered users and dozens of users using it daily. The future of the app is to continue to be used and updated regularly.',
     technologies: [0, 1, 2],
     links: {
       redirect: 'https://play.google.com/store/apps/details?id=com.federalagenda'
@@ -54,14 +54,14 @@ const projects = [
 
   { 
     id: 1,
-    name: 'AILab',
+    name: 'AILab (Portuguese)',
     images: [
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-1.png',
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-2.png',
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-4.png',
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-5.png'
     ],
-    description: 'Website que desenvolvi para a postagem de artigos sobre Inteligência Artificial de um grupo de estudos.',
+    description: 'Website that I developed for posting Artificial Intelligence articles from a study group.',
     technologies: [7, 8, 3, 4, 5],
     links: { 
       redirect: 'http://ailab.com.br',
@@ -78,7 +78,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game-mobile/master/screenshots/mobile-2.jpeg',
       'https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game-mobile/master/screenshots/mobile-4.jpeg'   
     ],
-    description: 'Game que utiliza as APIs da Wikipédia. O jogo mostra a foto e o nome de dois artigos, o objetivo é deduzir qual destes dois artigos é o mais visualizado.',
+    description: 'Game that uses the Wikipedia APIs. The game shows the photo and the name of two articles, the goal is to deduce which of these two articles is the most viewed.',
     technologies: [0],
     links: {
       redirect: 'https://play.google.com/store/apps/details?id=com.thewikipediaarticlegamemobile',
@@ -89,11 +89,11 @@ const projects = [
   
   {
     id: 3,
-    name: 'Guia Básico de Javascript',
+    name: 'Basic Javascript Guide (Portuguese)',
     images: [
       'https://raw.githubusercontent.com/Windows87/guia-basico-javascript/master/imagens/javascript-logo.png'
     ],
-    description: 'Guia escrito por mim para ensinar conceitos básicos de Javascript, como estruturas, DOM e requisições http.',
+    description: 'Guide written by me (in Portuguese) to teach basic Javascript concepts, such as structures, DOM and http requests.',
     technologies: [6],
     links: {
       redirect: 'https://github.com/Windows87/guia-basico-javascript/blob/master/README.md',
@@ -111,7 +111,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game/master/printscreens/mobile-0.jpeg',
       'https://raw.githubusercontent.com/Windows87/the-wikipedia-article-game/master/printscreens/mobile-1.jpeg'
     ],
-    description: 'Game que utiliza as APIs da Wikipédia. O jogo mostra a foto e o nome de dois artigos, o objetivo é deduzir qual destes dois artigos é o mais visualizado. Versão Web do Jogo (Mas Responsivo).',
+    description: 'Game that uses the Wikipedia APIs. The game shows the photo and the name of two articles, the goal is to deduce which of these two articles is the most viewed. Web Version of the Game (But Responsive).',
     technologies: [7, 8],
     links:{ 
       redirect: 'https://windows87.github.io/the-wikipedia-article-game/',
@@ -122,11 +122,11 @@ const projects = [
 
   {
     id: 5,
-    name: 'Meus Códigos do URI em Python',
+    name: 'URI Python Codes',
     images: [
       'https://s3-ap-southeast-1.amazonaws.com/appbajar/uploads/apk-screen/1560MeZ1528074227-img.png'
     ],
-    description: 'Exercícios do URI Online Judge que eu já fiz utilizando Python. Mais de 300 exercícios resolvidos.',
+    description: "URI Online Judge exercises that I've done using Python. More than 300 exercises solved.",
     technologies: [3],
     links: {
       redirect: 'https://www.urionlinejudge.com.br/judge/pt/profile/177613',
@@ -141,7 +141,7 @@ const projects = [
     images: [
       'https://raw.githubusercontent.com/Windows87/quotes-photos-generator/master/my-quote.png'
     ],
-    description: 'Módulo NPM para gerar imagens customizadas por meio do NodeJS.',
+    description: 'NPM module to generate customized images through NodeJS.',
     technologies: [1],
     links: {
       redirect: 'https://www.npmjs.com/package/quotes-photos-generator',
@@ -152,13 +152,13 @@ const projects = [
 
   {
     id: 7,
-    name: 'Geobattle',
+    name: 'Geobattle (Portuguese)',
     images: [
       'https://raw.githubusercontent.com/Windows87/geobattle/master/printscreens/ps1.jpg',
       'https://raw.githubusercontent.com/Windows87/geobattle/master/printscreens/ps2.jpg',
       'https://raw.githubusercontent.com/Windows87/geobattle/master/printscreens/ps3.jpg'
     ],
-    description: 'Jogo em tempo real que permite dois jogadores competirem, para ver quem acerta mais questões de Geografia. Porém, é possível modificar o tema de Geografia para qualquer outro tema. Criei para uma feira de ciências em 2018.',
+    description: 'Real-time game that allows two players to compete, to see who gets the most geography questions. However, it is possible to change the Geography theme to any other theme. I created for a science fair in 2018.',
     technologies: [10, 1, 9],
     links: {
       repository: 'https://github.com/Windows87/geobattle/'
@@ -168,7 +168,7 @@ const projects = [
 
   {
     id: 8,
-    name: 'Sistema para Biblioteca',
+    name: 'Library System (Portuguese)',
     images: [
       'https://github.com/Windows87/biblioteca/raw/master/readme-images/ps1.jpg',
       'https://github.com/Windows87/biblioteca/raw/master/readme-images/ps2.jpg',
@@ -176,7 +176,7 @@ const projects = [
       'https://github.com/Windows87/biblioteca/raw/master/readme-images/ps5.jpg',
       'https://github.com/Windows87/biblioteca/raw/master/readme-images/ps7.jpg'  
     ],
-    description: 'Sistema para biblioteca escolar que permite cadastro de livros, alunos e empréstimos. Criei para a biblioteca da minha escola do fundamental. O download está disponível, junto com o manual de uso.',
+    description: 'School library system that allows registration of books, students and loans. I created for my elementary school library. The download is available, along with the user manual.',
     technologies: [10, 1, 11],
     links: {
       repository: 'https://github.com/Windows87/biblioteca/'
@@ -190,7 +190,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/godot-pong-ai/master/screenshots/test.gif',
       'https://raw.githubusercontent.com/Windows87/godot-pong-ai/master/screenshots/game.gif'
     ],
-    description: 'Redes Neurais e Algoritmos Genéticos aplicados ao jogo Pong. Utilizei esse projeto para estudos mais profundos de Redes Neurais.',
+    description: 'Neural Networks and Genetic Algorithms applied to the game Pong. I used this project for deeper studies of Neural Networks.',
     technologies: [12, 13],
     links: {
       redirect: 'https://windows87.github.io/godot-pong-ai/',
@@ -201,13 +201,13 @@ const projects = [
 
   {
     id: 10,
-    name: 'Trucocraft', 
+    name: 'Trucocraft (Portuguese)', 
     images: [
       'https://raw.githubusercontent.com/Windows87/trucocraft/master/printscreens/video.gif',
       'https://raw.githubusercontent.com/Windows87/trucocraft/master/printscreens/ps1.jpeg',
       'https://raw.githubusercontent.com/Windows87/trucocraft/master/printscreens/ps2.jpeg'
     ],
-    description: 'Aplicação da linguagem JavaScript para a criação de um plugin que simula um jogo de truco no Minecraft. Feito apenas por diversão =)',
+    description: 'Application of the JavaScript language to create a plugin that simulates a game of truco in Minecraft (card game). Done just for fun =)',
     technologies: [8],
     links: {
       repository: 'https://github.com/Windows87/trucocraft'
@@ -221,7 +221,7 @@ const projects = [
     images: [
       'https://proec.ufabc.edu.br/gec/wp-content/uploads/2019/07/Albert-Einstein.png'
     ],
-    description: 'API para criar/obter/editar frases famosas (mais de 100 em português) sobre ciência. Pode-se utilizar o mesmo código para outras APIs Node.',
+    description: 'API to create / get / edit famous phrases (more than 100 in Portuguese) about science. You can use the same code for other Node APIs.',
     technologies: [1, 2],
     links: {
       repository: 'https://github.com/Windows87/science-quotes'
@@ -239,7 +239,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/physics-conquest-game/master/printscreens/ps4.png',
       'https://raw.githubusercontent.com/Windows87/physics-conquest-game/master/printscreens/ps5.png'
     ],
-    description: 'Jogo em tempo real sobre questões de física. Os jogadores devem tentar responder as perguntas que o professor passou, e a cada resposta correta, ele ganha um ponto, e a cada resposta errada, ele perde um ponto. O professor então pode finalizar a partida, que então irá mostrar o ranking de quem mais acertou.',
+    description: 'Real time game about physics issues. Players must try to answer the questions the teacher has asked, and for each correct answer, he gets a point, and for each wrong answer, he loses a point. The teacher can then finish the game, which will then show the ranking of who got it right.',
     technologies: [10, 1, 9],
     links: {
       repository: 'https://github.com/Windows87/physics-conquest-game'
@@ -258,7 +258,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/programming-language-akinator/master/screenshots/mobile-1.png',
       'https://raw.githubusercontent.com/Windows87/programming-language-akinator/master/screenshots/mobile-2.png'
     ],
-    description: 'O Website tem o objetivo de descobrir qual a linguagem que você pensou baseado em algumas perguntas. Projeto para estudo de Machine Learning.',
+    description: 'The website aims to find out what language you thought based on some questions. Project for the study of Machine Learning.',
     technologies: [10, 3, 4],
     links: {
       redirect: 'https://programming-language-akinator.herokuapp.com/',
@@ -269,11 +269,11 @@ const projects = [
 
   {
     id: 16,
-    name: 'Presencial Black',
+    name: 'Presencial Black (Portuguese)',
     images: [
       'https://raw.githubusercontent.com/Windows87/presencial-black/master/screenshots/after.png'
     ],
-    description: 'Criação de uma extensão para Google Chrome em que eu modifiquei o estilo padrão para o estilo dark.',
+    description: 'Creation of an extension for Google Chrome in which I changed the default style to the dark style.',
     technologies: [8],
     links: {
       repository: 'https://github.com/Windows87/presencial-black'
@@ -283,14 +283,14 @@ const projects = [
 
   {
     id: 17,
-    name: 'Sistema Hackathon Covid-19 IFSULDEMINAS',
+    name: 'System Hackathon Covid-19 IFSULDEMINAS (Portuguese)',
     images: [
       'https://raw.githubusercontent.com/Windows87/sistema-hackathon-covid19/master/screenshots/desktop-1.png',
       'https://raw.githubusercontent.com/Windows87/sistema-hackathon-covid19/master/screenshots/desktop-2.png',
       'https://raw.githubusercontent.com/Windows87/sistema-hackathon-covid19/master/screenshots/desktop-3.png',
       'https://raw.githubusercontent.com/Windows87/sistema-hackathon-covid19/master/screenshots/mobile-1.png'
     ],
-    description: 'Sistema para o Evento Hackathon Covid-19 IFSULDEMINAS para cadastro de ideias.',
+    description: 'System for the Hackathon Covid-19 IFSULDEMINAS Event to register ideas.',
     technologies: [7, 8, 1, 9, 5],
     links: {
       repository: 'https://github.com/Windows87/sistema-hackathon-covid19'
@@ -305,7 +305,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/mini-pokedex/master/screenshots/desktop-0.png',
       'https://raw.githubusercontent.com/Windows87/mini-pokedex/master/screenshots/mobile-0.jpeg'
     ],
-    description: 'Website para achar pokemóns pelo nome/id por meio de uma API. Desenvolvi esse website como exercício para um curso que ministrei sobre Javascript.',
+    description: 'Website to find pokemon by name / id through an API. I developed this website as an exercise for a course I taught on Javascript.',
     technologies: [7, 8],
     links: {
       redirect: 'https://windows87.github.io/mini-pokedex/',
@@ -322,7 +322,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/combine-website/master/screenshots/desktop-2.png',
       'https://raw.githubusercontent.com/Windows87/combine-website/master/screenshots/desktop-3.png'
     ],
-    description: 'Website fake sobre o jogo de Half-Life 2.',
+    description: 'Fake website about Half-Life 2.',
     technologies: [7, 8],
     links: {
       redirect: 'https://windows87.github.io/combine-website/',
@@ -338,7 +338,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/vanilla-chat/master/screenshots/desktop-0.png',
       'https://raw.githubusercontent.com/Windows87/vanilla-chat/master/screenshots/desktop-1.png',
     ],
-    description: 'Chat em tempo real com Javascript puro.',
+    description: 'Live chat with Vanilla Javascript.',
     technologies: [7, 8, 1, 9],
     links: {
       repository: 'https://github.com/Windows87/vanilla-chat/'
@@ -353,7 +353,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/xbm-viewer-converter/master/screenshots/desktop-1.png',
       'https://raw.githubusercontent.com/Windows87/xbm-viewer-converter/master/screenshots/desktop-2.png'
     ],
-    description: 'Website que permite gerar arquivos XBM a partir de outras fotos, usando o próprio navegador. Também permite visualizar outros arquivos XBM.',
+    description: 'Website that allows you to generate XBM files from other photos, using the browser itself. It also allows you to view other XBM files.',
     technologies: [7, 8],
     links: {
       redirect: 'https://windows87.github.io/xbm-viewer-converter/',
@@ -370,7 +370,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/calc/master/screenshots/desktop-2.png',
       'https://raw.githubusercontent.com/Windows87/calc/master/screenshots/mobile-1.png'
     ],
-    description: 'Jogo simples de matemática, sobre multiplicação.',
+    description: 'Simple math game about multiplication.',
     technologies: [7, 8],
     links: {
       redirect: 'https://windows87.github.io/calc/',
@@ -387,7 +387,7 @@ const projects = [
       'https://github.com/Windows87/RNMaps/raw/master/readme-images/AddMarker.jpeg',
       'https://github.com/Windows87/RNMaps/raw/master/readme-images/MarkerScreen.jpeg'
     ],
-    description: 'Aplicativo para estudos sobre o Google Maps para mobile.',
+    description: 'Application for learn Google Maps SDK for mobile.',
     technologies: [0, 1, 2],
     links: {
       repository: 'https://github.com/Windows87/RNMaps'
@@ -403,7 +403,7 @@ const projects = [
       'https://github.com/Windows87/react-notes/raw/master/screenshots/note.jpg',
       'https://github.com/Windows87/react-notes/raw/master/screenshots/new-note.jpg'
     ],
-    description: 'Bloco de notas offline criado com React para Desktop para estudos, com instalador a partir do Windows XP.',
+    description: 'Offline notepad created with React for Desktop for studies, with installer from Windows XP.',
     technologies: [10, 14],
     links: {
       repository: 'https://github.com/Windows87/react-notes/'
@@ -417,7 +417,7 @@ const projects = [
     images: [
       'https://github.com/Windows87/nwjs-contact-list/raw/master/screenshot.jpg'
     ],
-    description: 'Lista de contatos Desktop criado para estudos.',
+    description: 'Desktop contact list created for studies.',
     technologies: [7, 8, 14],
     links: {
       repository: 'https://github.com/Windows87/nwjs-contact-list/'
@@ -433,7 +433,7 @@ const projects = [
       'https://github.com/Windows87/react-chat/raw/master/readme/image-2.jpg',
       'https://github.com/Windows87/react-chat/raw/master/readme/image-3.jpg'
     ],
-    description: 'Chat em tempo real criado com React.', 
+    description: 'Real-time chat created with React.', 
     technologies: [10, 1, 2, 9],
     links: {
       repository: 'https://github.com/Windows87/react-chat/'
@@ -450,7 +450,7 @@ const projects = [
       'https://github.com/Windows87/imgular/raw/master/readme-images/image.jpg',
       'https://github.com/Windows87/imgular/raw/master/readme-images/write.jpg'
     ],
-    description: 'Projeto usando Angular para estudos. O objetivo do projeto é imitar o Imgur, podendo fazer o upload e visualizar imagens.',
+    description: 'Project using Angular for studies. The objective of the project is to imitate Imgur, being able to upload and view images.',
     technologies: [15, 1, 2],
     links: {
       repository: 'https://github.com/Windows87/Imgular'
@@ -470,7 +470,7 @@ const projects = [
       'https://raw.githubusercontent.com/AsuraProject/AsuraIDE/master/screenshots/desktop-3.png',
       'https://raw.githubusercontent.com/AsuraProject/AsuraIDE/master/screenshots/desktop-4.png'
     ],
-    description: 'Projeto muito antigo meu (2017) e bem complexo. Utilizei muitas linguagens diferentes, com o objetivo de criar um smartglass. No final, desenvolvi um editor Javascript, website HTML/CSS/JS/PHP, app Java Android e código Arduino.',
+    description: 'Very old project of mine (2017) and very complex. I used many different languages ​​in order to create a smartglass. In the end, I developed a Javascript editor, HTML / CSS / JS / PHP website, Java Android app and Arduino code.',
     technologies: [7, 8, 11, 16, 17, 18, 5],
     links: {
       repository: 'https://github.com/AsuraProject/asuraproject.github.com'
