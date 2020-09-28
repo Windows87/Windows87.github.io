@@ -37,6 +37,23 @@ const months = {
 
 const projects = [
   {
+    id: 29,
+    name: 'Exatas Puzzles',
+    images: [
+      'https://lh3.googleusercontent.com/_7LN07UQk3j2L16yqsFsWu_mVvkwiqJVZOAcRnE8cFKXH8mkFEpmIbERH3VsMplUed0=w1920-h969-rw',
+      'https://lh3.googleusercontent.com/aHeWuvjw7AcXwJJKwhLswWH22Dk8s8JIMsa6HYxiWcAESwoaiaTVMKzcZwWtP7VHvHHe=w1920-h969-rw',
+      'https://lh3.googleusercontent.com/HaL6c9lSAPHnu_8goL9ZTND1O-isvBNjXNAdgxnzOCNzNsVLq2cWF0pHwwZQ2mQ_KOyJ=w1920-h969-rw',
+      'https://lh3.googleusercontent.com/L3y_pESkPH-pQAB8aDFEgdYbWsvhiwpISwsmLM0xC1SShwfIJoP_rBETPazRk6p6vuA4=w1920-h969-rw'
+    ],
+    description: 'Game about logic, mathematics, chemistry, physics and computer science puzzles (+200 puzzles). Progress can be saved using Facebook authentication, but it can be played offline.',
+    technologies: [0, 1, 2],
+    links: {
+      redirect: 'https://play.google.com/store/apps/details?id=com.cspuzzles'
+    },
+    date: new Date('08-01-2020')
+  },
+
+  {
     id: 0,
     name: 'Federal Agenda (Portuguese)',
     images: [
