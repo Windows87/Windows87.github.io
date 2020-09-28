@@ -1,5 +1,5 @@
 # Currículo Online
-Você pode ver meu currículo online <a href="https://windows87.github.io/">Clicando aqui</a> (está desatualizado).
+Você pode ver meu currículo online <a href="https://windows87.github.io/">Clicando aqui</a>.
 
 ## Sobre Mim
 Opa! Me chamo Yuri Faria, sou desenvolvedor full-stack e tenho atualmente 16 anos. Sou programador a mais de cinco anos, desenvolvendo projetos web, mobile e desktop. Usando principalmente Javascript e Python, porém, consigo aprender rápido outras linguagens, caso necessário. Atualmente estou estudando Machine Learning.
@@ -27,6 +27,7 @@ Iniciei em 2015 desenvolvendo jogos com Construct 2, apenas por diversão, mas d
 ## Projetos
 ### No Ar
 - <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile e Web - 2019/Hoje
+- <a href="https://play.google.com/store/apps/details?id=com.cspuzzles">Exatas Puzzles</a> - Mobile - 2020/Hoje
 
 ### Projetos de Código Aberto
 #### + Complexos

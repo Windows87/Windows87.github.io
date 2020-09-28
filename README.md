@@ -24,13 +24,10 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - MySQL
 - MongoDB
 
-### Others
-- Inkscape
-- PowerPoint
-
 ## Projects
 ### Up and Running
 - <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile and Web - 2019/Today
+- <a href="https://play.google.com/store/apps/details?id=com.cspuzzles">Exatas Puzzles</a> - Mobile - 2020/Today
 
 ### Open Source Projects
 #### Relevant  
