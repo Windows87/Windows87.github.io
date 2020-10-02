@@ -69,6 +69,23 @@ const projects = [
     date: new Date('08-01-2019')
   },
 
+  {
+    id: 30,
+    name: 'Habits Tracker',
+    images: [
+      'https://lh3.googleusercontent.com/DLp8A8EbgnYWq5HQb99HGwHase1HUUttI5wHTSJSHW9j_revBXpCQ83i2Rhcrt19rFgI=w1170-h948-rw',
+      'https://lh3.googleusercontent.com/Fn1M4BIVZRHwDu1e5msLgIlqujPZl61JCPboFxIyfns6uL6e5u6pBndyggXVE197qbg=w1170-h948-rw',
+      'https://lh3.googleusercontent.com/qRc8XOUxvOGnDcPffUggOSv4N_56AHH_G-hqnWX8n7nDCFQkNShOyCEhohfDHWVs-aY=w1170-h948-rw',
+      'https://lh3.googleusercontent.com/4Rpb1YLwg2k_JhwIDKPBbvDbmy_JcPjnf--PHM-ErL55eOGAhc-X-tOLWa3r-oZEgQ=w1170-h948-rw'
+    ],
+    description: 'Track your habits and goals progress and evolution.. Heatmap, Charts, Data, Offline and Night/Light Mode.',
+    technologies: [0],
+    links: {
+      redirect: 'https://play.google.com/store/apps/details?id=com.heatmaphabittracker'
+    },
+    date: new Date('09-01-2020')
+  },
+
   { 
     id: 1,
     name: 'AILab (Portuguese)',
@@ -165,6 +182,20 @@ const projects = [
       repository: 'https://github.com/Windows87/quotes-photos-generator'
     },
     date: new Date('07-01-2019')
+  },
+
+  {
+    id: 31,
+    name: 'React Native Heatmap Chart',
+    images: [
+      'https://github.com/Windows87/react-native-heatmap-chart/raw/master/screenshots/example.jpg',
+    ],
+    description: 'Heatmap Chart Component NPM Module to React Native.',
+    technologies: [0],
+    links: {
+      repository: 'https://github.com/Windows87/react-native-heatmap-chart'
+    },
+    date: new Date('09-01-2020')
   },
 
   {

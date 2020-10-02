@@ -26,8 +26,9 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 
 ## Projects
 ### Up and Running
-- <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile and Web - 2019/Today
+- <a href="https://play.google.com/store/apps/details?id=com.heatmaphabittracker">Habits Tracker</a> - Mobile - 2020/Today
 - <a href="https://play.google.com/store/apps/details?id=com.cspuzzles">Exatas Puzzles</a> - Mobile - 2020/Today
+- <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile and Web - 2019/Today
 
 ### Open Source Projects
 #### Relevant  
@@ -51,10 +52,12 @@ I started programming when I was making games with Construct 2 in 2015. Later I 
 - Trucocraft - Minecraft Plugin - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Github Repository</a>
 
 #### Less Relevant
+- React Native Heatmap Chart - NPM Module - Sep/2020 - <a href="https://github.com/Windows87/react-native-heatmap-chart">Github Repository</a>
 - Sistema Hackathon Covid-19 IFSULDEMINAS - Web - Apr/2020 - <a href="https://github.com/Windows87/sistema-hackathon-covid19">Github Repository</a>
 - Flask Image! - Web - Mar/2020 - <a href="https://github.com/Windows87/image-upload-flask">Github Repository</a>
 - <a href="https://windows87.github.io/mini-pokedex/">Mini Pokedex</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/mini-pokedex">Github Repository</a>
 - <a href="https://windows87.github.io/seminfo-javascript-moderno/">Oficina de Javascript</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/seminfo-javascript-moderno">Github Repository</a>
+- Quotes Generator - NPM Module - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Github Repository</a>
 - <a href="https://windows87.github.io/combine-website/">Combine Website</a> - Web - May/2019 - <a href="https://github.com/Windows87/combine-website/">Github Repository</a>
 - Vanilla Chat - Web - Feb/2019 - <a href="https://github.com/Windows87/vanilla-chat/">Github Repository</a>
 - <a href="https://windows87.github.io/xbm-viewer-converter/">XBM Viewer and Converter</a> - Web - Jan/2019 - <a href="https://github.com/Windows87/xbm-viewer-converter/">Github Repository</a>

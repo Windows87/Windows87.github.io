@@ -26,8 +26,9 @@ Iniciei em 2015 desenvolvendo jogos com Construct 2, apenas por diversão, mas d
 
 ## Projetos
 ### No Ar
-- <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile e Web - 2019/Hoje
+- <a href="https://play.google.com/store/apps/details?id=com.heatmaphabittracker">Habits Tracker</a> - Mobile - 2020/Hoje
 - <a href="https://play.google.com/store/apps/details?id=com.cspuzzles">Exatas Puzzles</a> - Mobile - 2020/Hoje
+- <a href="https://play.google.com/store/apps/details?id=com.federalagenda">Federal Agenda</a> - Mobile e Web - 2019/Hoje
 
 ### Projetos de Código Aberto
 #### + Complexos
@@ -36,7 +37,6 @@ Iniciei em 2015 desenvolvendo jogos com Construct 2, apenas por diversão, mas d
 - Guia Básico de Javascript - Markdown - Out/2019 - <a href="https://github.com/Windows87/guia-basico-javascript">Repositório</a>
 - Meus Códigos do URI em Python - URI - 2019/2020 - <a href="https://github.com/Windows87/uri-python">Repositório</a>
 - <a href="https://windows87.github.io/the-wikipedia-article-game/">The Wikipédia Article Game</a> - Web - Jul/2019 - <a href="https://github.com/Windows87/the-wikipedia-article-game">Repositório</a>
-- Quotes Generator - Módulo NPM - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Repositório</a>
 - Geobattle - Web - 2018 - <a href="https://github.com/Windows87/geobattle/">Repositório</a>
 - Sistema para Biblioteca - Desktop - Ago/2018 - <a href="https://github.com/Windows87/biblioteca/">Repositório</a>
 
@@ -51,10 +51,12 @@ Iniciei em 2015 desenvolvendo jogos com Construct 2, apenas por diversão, mas d
 - Trucocraft - Plugin de Minecraft - Mar/2019 - <a href="https://github.com/Windows87/trucocraft">Repositório</a>
 
 #### Menos Complexo
+- React Native Heatmap Chart - Módulo NPM - Set/2020 - <a href="https://github.com/Windows87/react-native-heatmap-chart">Repositório</a>
 - Sistema Hackathon Covid-19 IFSULDEMINAS - Web - Apr/2020 - <a href="https://github.com/Windows87/sistema-hackathon-covid19">Repositório</a>
 - Flask Image! - Web - Mar/2020 - <a href="https://github.com/Windows87/image-upload-flask">Repositório</a>
 - <a href="https://windows87.github.io/mini-pokedex/">Mini Pokedex</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/mini-pokedex">Repositório</a>
 - <a href="https://windows87.github.io/seminfo-javascript-moderno/">Oficina de Javascript</a> - Web - Ago/2019 - <a href="https://github.com/Windows87/seminfo-javascript-moderno">Repositório</a>
+- Quotes Generator - Módulo NPM - Jul/2019 - <a href="https://github.com/Windows87/quotes-photos-generator">Repositório</a>
 - <a href="https://windows87.github.io/combine-website/">Combine Website</a> - Web - Mai/2019 - <a href="https://github.com/Windows87/combine-website/">Repositório</a>
 - Vanilla Chat - Web - Fev/2019 - <a href="https://github.com/Windows87/vanilla-chat/">Repositório</a>
 - <a href="https://windows87.github.io/xbm-viewer-converter/">XBM Viewer and Converter</a> - Web - Jan/2019 - <a href="https://github.com/Windows87/xbm-viewer-converter/">Repositório</a>
