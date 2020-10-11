@@ -2,7 +2,7 @@
 See my personal website resume <a href="https://windows87.github.io/">Clicking Here</a>.
 
 ## About Me
-Hi! I'm Yuri Faria, Brazilian, FullStack, and 16 years old. I like to create things with programming, create images, narratives, videos and presentations. I like the development area because the possibility of create things, improve thing and explore creativity.
+Hi! I'm Yuri Faria, Brazilian, FullStack, and 17 years old. I like to create things with programming, create images, narratives, videos and presentations. I like the development area because the possibility of create things, improve thing and explore creativity.
 
 ## My History with Code
 I started programming when I was making games with Construct 2 in 2015. Later I started learn HTML, CSS and PHP in 2016. In 2017 I started learn Javascript/Ajax/APIs. In 2018 I started learn React, React-Native, NodeJS and Javascript technologies. In all in these years I maked a lot of personal projects, startup projects and school projects.

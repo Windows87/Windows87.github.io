@@ -2,7 +2,7 @@
 Você pode ver meu currículo online <a href="https://windows87.github.io/">Clicando aqui</a>.
 
 ## Sobre Mim
-Opa! Me chamo Yuri Faria, sou desenvolvedor full-stack e tenho atualmente 16 anos. Sou programador a mais de cinco anos, desenvolvendo projetos web, mobile e desktop. Usando principalmente Javascript e Python, porém, consigo aprender rápido outras linguagens, caso necessário. Atualmente estou estudando Machine Learning.
+Opa! Me chamo Yuri Faria, sou desenvolvedor full-stack e tenho atualmente 17 anos. Sou programador a mais de cinco anos, desenvolvendo projetos web, mobile e desktop. Usando principalmente Javascript e Python, porém, consigo aprender rápido outras linguagens, caso necessário. Atualmente estou estudando Machine Learning.
 
 ## Minha História com Código
 Iniciei em 2015 desenvolvendo jogos com Construct 2, apenas por diversão, mas depois comecei a pesquisar e aprender sozinho sobre C, desenvolvimento web, PHP e outras linguagens de programação. Comecei a desenvolver dezenas de projetos (alguns ainda estão privados no Github) e documentar no Github desde 2017. Depois, passei de apenas desenvolver projetos de estudos pessoais e começar a desenvolver aplicativos/sistemas e colocá-los no ar para usuários reais utilizarem, fazer iniciações científicas e fazer trabalhos em sites como Workana.
