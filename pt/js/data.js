@@ -95,7 +95,7 @@ const projects = [
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-4.png',
       'https://raw.githubusercontent.com/Windows87/deeplab/master/screenshots/desktop-5.png'
     ],
-    description: 'Website que desenvolvi para a postagem de artigos sobre Inteligência Artificial de um grupo de estudos.',
+    description: 'Website que desenvolvi para a postagem de artigos sobre Inteligência Artificial de um grupo de estudos. Além disso, escrevi mais de 10 artigos sobre aprendizado de máquina e junto com outros membros criamos um curso de python e ministramos um mini curso sobre introdução a Machine Learning.',
     technologies: [7, 8, 3, 4, 5],
     links: { 
       redirect: 'http://ailab.com.br',

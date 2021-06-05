@@ -45,7 +45,7 @@ const projects = [
       'https://lh3.googleusercontent.com/HaL6c9lSAPHnu_8goL9ZTND1O-isvBNjXNAdgxnzOCNzNsVLq2cWF0pHwwZQ2mQ_KOyJ=w1920-h969-rw',
       'https://lh3.googleusercontent.com/L3y_pESkPH-pQAB8aDFEgdYbWsvhiwpISwsmLM0xC1SShwfIJoP_rBETPazRk6p6vuA4=w1920-h969-rw'
     ],
-    description: 'Game about logic, mathematics, chemistry, physics and computer science puzzles (+200 puzzles). Progress can be saved using Facebook authentication, but it can be played offline.',
+    description: 'Game about logic, mathematics, chemistry, physics, and computer science puzzles (+200 puzzles). Progress can be saved using Facebook authentication, but it can be played offline.',
     technologies: [0, 1, 2],
     links: {
       redirect: 'https://play.google.com/store/apps/details?id=com.cspuzzles'
@@ -61,7 +61,7 @@ const projects = [
       'https://lh3.googleusercontent.com/7RhGV-tEXoMRbc0R-dMmj2OTX88e7rmdmlQAxUHj-rMye66G_O3M3q6jkCYCPf2_n9w=w1373-h910-rw',
       'https://lh3.googleusercontent.com/6IFPn4W5hggquUTDInu0juOGQY2Vi26PrtjP-D3SPnb5mT4iwBiQbqFi-LtMwK14-Msv=w1360-h957-rw'
     ],
-    description: 'Application that I developed for the technical courses of my education institution (IFSULDEMINAS), in order to organize the test dates, activities and events. I managed to apply it and have hundreds of registered users and dozens of users using it daily. The future of the app is to continue to be used and updated regularly.',
+    description: 'I created a collaborative app for my school that helps high school, technician, and undergraduate students never forget their school activities. The app has 600 students registered and had 7.000 access in the last two months. I also published a paper about the project in the XII IFSULDEMINAS Scientific Journey.',
     technologies: [0, 1, 2],
     links: {
       redirect: 'https://play.google.com/store/apps/details?id=com.federalagenda'
